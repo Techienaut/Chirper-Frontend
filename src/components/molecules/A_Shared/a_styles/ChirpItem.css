@@ -1,0 +1,30 @@
+.chirp-item {
+  width: 600px;
+  height: 144px;
+  display: grid;
+  grid-template-columns: 77px auto 62px;
+  grid-template-rows: 32px auto   43px;
+  grid-template-areas: "icon header context"
+                       "icon body   context"
+                       "icon nums   context";
+}
+.icon-div {
+  grid-area: icon;
+  background-color: yellow;
+}
+.header-div {
+  grid-area: header;
+  background-color: pink;
+}
+.body-div {
+  grid-area: body;
+  background-color: green;
+}
+.nums-div {
+  grid-area: nums;
+  background-color: orange;
+}
+.context-div {
+  grid-area: context;
+  background-color: red;
+}
