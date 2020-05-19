@@ -1,0 +1,23 @@
+.page-main {
+  display: grid;
+  grid-template-columns: 1fr 1px auto 1px 1fr;
+  grid-template-areas: "nav sep-left content sep-right right-section";
+  min-height: 100vh;
+}
+.nav {
+  grid-area: nav;
+}
+.content {
+  grid-area: content;
+}
+.right-section {
+  grid-area: right-section;
+}
+.seperator-left {
+  grid-area: sep-left;
+  height: 100%;
+}
+.seperator-right {
+  grid-area: sep-right;
+  height: 100%;
+}

@@ -1,30 +1,75 @@
 .chirp-item {
   width: 600px;
-  height: 144px;
   display: grid;
   grid-template-columns: 77px auto 62px;
-  grid-template-rows: 32px auto   43px;
-  grid-template-areas: "icon header context"
-                       "icon body   context"
-                       "icon nums   context";
+  grid-template-rows: 32px auto 46px 1px;
+  grid-template-areas:
+    "icon header context"
+    "icon body   context"
+    "icon nums   context"
+    "border border border";
 }
 .icon-div {
   grid-area: icon;
   background-color: yellow;
 }
+.profile-pic {
+  margin-top: 4px;
+  margin-left: 12px;
+  border-radius: 50%;
+}
 .header-div {
   grid-area: header;
   background-color: pink;
+  display: flex;
+}
+
+.header-div > * {
+  margin-top: 3px;
+}
+.time {
+  margin-left: 15px;
 }
 .body-div {
   grid-area: body;
   background-color: green;
 }
+.body-chirp {
+  margin: 0;
+}
 .nums-div {
   grid-area: nums;
   background-color: orange;
+  display: flex;
+  align-items: flex-end;
+}
+/* .nums-div > * {
+  margin-bottom: 15px;
+} */
+.comment-icon {
+  height: 16px;
+  margin-bottom: 15px;
+}
+.comment-num {
+  margin-left: 4px;
+  margin-bottom: 13px;
+}
+.like-icon {
+  height: 16px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+}
+.like-num {
+  margin-left: 4px;
+  margin-bottom: 13px;
 }
 .context-div {
   grid-area: context;
   background-color: red;
+}
+.context-icon {
+  margin-left: 24px;
+}
+.bottom-border {
+  grid-area: border;
 }
