@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import ChirpItem from "./components/molecules/A_Shared/ChirpItem";
+import ChirpFeed from "./components/molecules/A_Shared/ChirpFeed";
 
 function App() {
   return (
     <div className="App">
-      <ChirpItem />
+      <ChirpFeed />
     </div>
   );
 }

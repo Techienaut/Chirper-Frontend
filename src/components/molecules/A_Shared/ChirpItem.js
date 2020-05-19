@@ -1,6 +1,6 @@
 import React from "react";
 import "./a_styles/ChirpItem.css";
-const image =
+const profilePic =
   "https://res.cloudinary.com/techienaut/image/upload/v1587372249/Chirper/comment_avatar_ccerz8.png";
 const username = "@egoraptor";
 const time = "2:23pm";
@@ -19,26 +19,27 @@ function ChirpItem(props) {
   return (
     <div className="chirp-item">
       <div className="icon-div">
-        <img src={image} alt="" />
+        <img className="profile-pic" src={props.profilePic} alt="" />
       </div>
       <div className="header-div">
-        <span>{username}</span>
-        <span>{time}</span>
-        <span>&nbsp;·&nbsp;</span>
-        <span>{date}</span>
+        <span className="username color-lynch">{props.username}</span>
+        <span className="time color-lynch">{props.time}</span>
+        <span className="color-lynch">&nbsp;·&nbsp;</span>
+        <span className="date color-lynch">{props.date}</span>
       </div>
       <div className="body-div">
-        <p>{body}</p>
+        <p className="body-chirp">{props.body}</p>
       </div>
       <div className="nums-div">
-        <img src={commentIcon} alt="" />
-        <span>{commentNum}</span>
-        <img src={likeIcon} alt="" />
-        <span>{likeNum}</span>
+        <img className="comment-icon" src={commentIcon} alt="" />
+        <span className="comment-num">{props.commentNum}</span>
+        <img className="like-icon" src={likeIcon} alt="" />
+        <span className="like-num">{props.likeNum}</span>
       </div>
       <div className="context-div">
-        <img src={contextIcon} alt="" />
+        <img className="context-icon" src={contextIcon} alt="" />
       </div>
+      <div className="bottom-border color-solitude"></div>
     </div>
   );
 }
