@@ -11,7 +11,7 @@
 }
 .icon-div {
   grid-area: icon;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 .profile-pic {
   margin-top: 4px;
@@ -20,7 +20,7 @@
 }
 .header-div {
   grid-area: header;
-  background-color: pink;
+  /* background-color: pink; */
   display: flex;
 }
 
@@ -32,14 +32,16 @@
 }
 .body-div {
   grid-area: body;
-  background-color: green;
+  /* background-color: green; */
 }
 .body-chirp {
   margin: 0;
+  font-family: "Roboto";
+  font-size: 15px;
 }
 .nums-div {
   grid-area: nums;
-  background-color: orange;
+  /* background-color: orange; */
   display: flex;
   align-items: flex-end;
 }
@@ -65,7 +67,7 @@
 }
 .context-div {
   grid-area: context;
-  background-color: red;
+  /* background-color: red; */
 }
 .context-icon {
   margin-left: 24px;

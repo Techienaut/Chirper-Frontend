@@ -32,9 +32,9 @@ function ChirpItem(props) {
       </div>
       <div className="nums-div">
         <img className="comment-icon" src={commentIcon} alt="" />
-        <span className="comment-num">{props.commentNum}</span>
+        <span className="comment-num color-lynch">{props.commentNum}</span>
         <img className="like-icon" src={likeIcon} alt="" />
-        <span className="like-num">{props.likeNum}</span>
+        <span className="like-num color-lynch">{props.likeNum}</span>
       </div>
       <div className="context-div">
         <img className="context-icon" src={contextIcon} alt="" />
