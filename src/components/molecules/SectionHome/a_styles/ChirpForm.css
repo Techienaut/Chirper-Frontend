@@ -1,0 +1,72 @@
+.chirp-form {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 77px 522px;
+  grid-template-rows: auto 56px;
+  grid-template-areas:
+    "icon body"
+    "icon submit-area";
+}
+.chirp-form .icon {
+  grid-area: icon;
+}
+.chirp-form .body {
+  grid-area: body;
+}
+.chirp-form .submit-area {
+  grid-area: submit-area;
+  display: flex;
+  justify-content: flex-end;
+}
+.chirp-form .profile-pic {
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-left: 12px;
+}
+.chirp-form textarea {
+  font-family: Roboto;
+  font-size: 19px;
+  margin-top: 16px;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+}
+.chirp-form textarea::-webkit-input-placeholder {
+  color: #9197a3;
+}
+
+.chirp-form textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #9197a3;
+}
+
+.chirp-form textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #9197a3;
+}
+
+.chirp-form textarea:-ms-input-placeholder {
+  color: #9197a3;
+}
+
+.chirp-form textarea::placeholder {
+  color: #9197a3;
+}
+.chirp-form .submit-btn {
+  border: none;
+  margin-right: 16px;
+  width: 76px;
+  height: 40px;
+  border-radius: 999px;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+}

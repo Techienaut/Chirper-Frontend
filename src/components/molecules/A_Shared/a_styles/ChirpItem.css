@@ -9,37 +9,37 @@
     "icon nums   context"
     "border border border";
 }
-.icon-div {
+.chirp-item .icon-div {
   grid-area: icon;
   /* background-color: yellow; */
 }
-.profile-pic {
+.chirp-item .profile-pic {
   margin-top: 4px;
   margin-left: 12px;
   border-radius: 50%;
 }
-.header-div {
+.chirp-item .header-div {
   grid-area: header;
   /* background-color: pink; */
   display: flex;
 }
 
-.header-div > * {
+.chirp-item .header-div > * {
   margin-top: 3px;
 }
-.time {
+.chirp-item .time {
   margin-left: 15px;
 }
-.body-div {
+.chirp-item .body-div {
   grid-area: body;
   /* background-color: green; */
 }
-.body-chirp {
+.chirp-item .body-chirp {
   margin: 0;
   font-family: "Roboto";
   font-size: 15px;
 }
-.nums-div {
+.chirp-item .nums-div {
   grid-area: nums;
   /* background-color: orange; */
   display: flex;
@@ -48,30 +48,30 @@
 /* .nums-div > * {
   margin-bottom: 15px;
 } */
-.comment-icon {
+.chirp-item .comment-icon {
   height: 16px;
   margin-bottom: 15px;
 }
-.comment-num {
+.chirp-item .comment-num {
   margin-left: 4px;
   margin-bottom: 13px;
 }
-.like-icon {
+.chirp-item .like-icon {
   height: 16px;
   margin-left: 16px;
   margin-bottom: 15px;
 }
-.like-num {
+.chirp-item .like-num {
   margin-left: 4px;
   margin-bottom: 13px;
 }
-.context-div {
+.chirp-item .context-div {
   grid-area: context;
   /* background-color: red; */
 }
-.context-icon {
+.chirp-item .context-icon {
   margin-left: 24px;
 }
-.bottom-border {
+.chirp-item .bottom-border {
   grid-area: border;
 }

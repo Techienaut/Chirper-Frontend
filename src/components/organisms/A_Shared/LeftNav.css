@@ -1,0 +1,52 @@
+.left-nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "left-sp right-sp";
+}
+.left-nav .left-space {
+  grid-area: left-sp;
+}
+.left-nav .right-space {
+  grid-area: right-sp;
+}
+.left-nav nav {
+  margin-top: 64px;
+  margin-right: 64px;
+}
+.left-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.left-nav li {
+  display: flex;
+  align-items: center;
+}
+.left-nav .label {
+  font-family: Roboto;
+  font-size: 19px;
+  vertical-align: bottom;
+  margin-left: 24px;
+}
+.left-nav .li-profile {
+  margin-top: 16px;
+}
+.left-nav .home-icon {
+  height: 22px;
+}
+.left-nav .profile-pic {
+  margin-left: 0;
+  margin-top: 0;
+  height: 25px;
+  border-radius: 50%;
+}
+.left-nav .chirp-btn {
+  border: none;
+  width: 212px;
+  height: 49px;
+  margin-top: 16px;
+  border-radius: 999px;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+}

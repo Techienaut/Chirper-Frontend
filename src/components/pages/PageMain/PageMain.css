@@ -4,20 +4,20 @@
   grid-template-areas: "nav sep-left content sep-right right-section";
   min-height: 100vh;
 }
-.nav {
+.page-main .nav {
   grid-area: nav;
 }
-.content {
+.page-main .content {
   grid-area: content;
 }
-.right-section {
+.page-main .right-section {
   grid-area: right-section;
 }
-.seperator-left {
+.page-main .seperator-left {
   grid-area: sep-left;
   height: 100%;
 }
-.seperator-right {
+.page-main .seperator-right {
   grid-area: sep-right;
   height: 100%;
 }
