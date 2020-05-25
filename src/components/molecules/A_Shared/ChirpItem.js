@@ -14,7 +14,7 @@ const likeIcon =
   "https://res.cloudinary.com/techienaut/image/upload/v1587373217/Chirper/ChripItem/like_icon_ybliqy.png";
 const likeNum = 6;
 const contextIcon =
-  "https://res.cloudinary.com/techienaut/image/upload/v1587373423/Chirper/ChripItem/context_button_repobe.png";
+  "https://res.cloudinary.com/techienaut/image/upload/v1590375851/Chirper/ChripItem/Context_dqou7q.png";
 function ChirpItem(props) {
   return (
     <div className="chirp-item">
@@ -31,9 +31,9 @@ function ChirpItem(props) {
         <p className="body-chirp">{props.body}</p>
       </div>
       <div className="nums-div">
-        <img className="comment-icon" src={commentIcon} alt="" />
+        <i className="comment-icon fa fa-comment-o"></i>.
         <span className="comment-num color-lynch">{props.commentNum}</span>
-        <img className="like-icon" src={likeIcon} alt="" />
+        <i className="like-icon fa fa-heart-o"></i>
         <span className="like-num color-lynch">{props.likeNum}</span>
       </div>
       <div className="context-div">

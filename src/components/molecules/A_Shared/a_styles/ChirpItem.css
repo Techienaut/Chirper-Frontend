@@ -9,6 +9,10 @@
     "icon nums   context"
     "border border border";
 }
+.chirp-item:hover {
+  cursor: pointer;
+  background-color: #f5f8fa;
+}
 .chirp-item .icon-div {
   grid-area: icon;
   /* background-color: yellow; */
@@ -38,6 +42,7 @@
   margin: 0;
   font-family: "Roboto";
   font-size: 15px;
+  line-height: 1.3125;
 }
 .chirp-item .nums-div {
   grid-area: nums;
@@ -50,16 +55,17 @@
 } */
 .chirp-item .comment-icon {
   height: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
+  font-size: 18px;
 }
 .chirp-item .comment-num {
-  margin-left: 4px;
   margin-bottom: 13px;
 }
 .chirp-item .like-icon {
   height: 16px;
   margin-left: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
+  font-size: 18px;
 }
 .chirp-item .like-num {
   margin-left: 4px;
