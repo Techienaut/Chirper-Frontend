@@ -70,3 +70,6 @@
   font-family: Roboto;
   font-size: 15px;
 }
+.chirp-form .submit-btn:hover {
+  cursor: pointer;
+}

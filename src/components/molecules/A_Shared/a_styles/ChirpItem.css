@@ -57,19 +57,14 @@
   height: 16px;
   margin-bottom: 18px;
   font-size: 18px;
+  color: var(--lynch);
 }
 .chirp-item .comment-num {
-  margin-bottom: 13px;
-}
-.chirp-item .like-icon {
-  height: 16px;
-  margin-left: 16px;
-  margin-bottom: 16px;
-  font-size: 18px;
+  margin-bottom: 14px;
 }
 .chirp-item .like-num {
-  margin-left: 4px;
-  margin-bottom: 13px;
+  margin-left: 2px;
+  margin-bottom: 14px;
 }
 .chirp-item .context-div {
   grid-area: context;

@@ -1,0 +1,20 @@
+.like-icon {
+  height: 26px;
+  width: 26px;
+  margin-left: 16px;
+  margin-bottom: 11.75px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.like-icon .not-liked-icon {
+  fill: var(--lynch);
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+.like-icon .liked-icon {
+  display: none;
+  height: 16px;
+  width: 16px;
+}

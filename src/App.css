@@ -3,6 +3,11 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /* Colors */
+:root {
+  --lynch: #657786;
+  --cerise: #e0245e;
+  --transpar: #11ffee00;
+}
 .App .color-lynch {
   color: #657786;
 }

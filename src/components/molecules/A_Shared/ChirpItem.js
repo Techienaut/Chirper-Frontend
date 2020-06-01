@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./a_styles/ChirpItem.css";
+import LikeIcon from "../../atoms/ChripItem/LikeIcon";
 const profilePic =
   "https://res.cloudinary.com/techienaut/image/upload/v1587372249/Chirper/comment_avatar_ccerz8.png";
 const username = "@egoraptor";
@@ -16,6 +17,7 @@ const likeNum = 6;
 const contextIcon =
   "https://res.cloudinary.com/techienaut/image/upload/v1590375851/Chirper/ChripItem/Context_dqou7q.png";
 function ChirpItem(props) {
+  const [isHoverLike, setHoverLike] = useState(false);
   return (
     <div className="chirp-item">
       <div className="icon-div">
@@ -33,8 +35,19 @@ function ChirpItem(props) {
       <div className="nums-div">
         <i className="comment-icon fa fa-comment-o"></i>.
         <span className="comment-num color-lynch">{props.commentNum}</span>
-        <i className="like-icon fa fa-heart-o"></i>
-        <span className="like-num color-lynch">{props.likeNum}</span>
+        {/* <i className="like-icon fa fa-heart-o"></i> */}
+        <LikeIcon
+          onMouseEnter={() => setHoverLike(true)}
+          onMouseLeave={() => setHoverLike(false)}
+          hover={isHoverLike}
+        />
+        <span
+          className="like-num color-lynch"
+          onMouseEnter={() => setHoverLike(true)}
+          onMouseLeave={() => setHoverLike(false)}
+        >
+          {props.likeNum}
+        </span>
       </div>
       <div className="context-div">
         <img className="context-icon" src={contextIcon} alt="" />
