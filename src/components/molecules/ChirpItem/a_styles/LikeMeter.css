@@ -1,0 +1,8 @@
+.like-meter {
+  display: flex;
+  align-items: flex-end;
+}
+.like-meter .like-num {
+  margin-left: 2px;
+  margin-bottom: 14px;
+}

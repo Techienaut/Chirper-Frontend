@@ -62,10 +62,10 @@
 .chirp-item .comment-num {
   margin-bottom: 14px;
 }
-.chirp-item .like-num {
+/* .chirp-item .like-num {
   margin-left: 2px;
   margin-bottom: 14px;
-}
+} */
 .chirp-item .context-div {
   grid-area: context;
   /* background-color: red; */
