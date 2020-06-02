@@ -1,20 +1,19 @@
-.like-icon {
+.comment-icon {
   height: 26px;
   width: 26px;
-  margin-left: 16px;
   margin-bottom: 11.75px;
   border-radius: 50%;
+  background-color: blue;
 }
-.like-icon .open-like-icon {
+.comment-icon .open-comment-icon {
   fill: var(--lynch);
   height: 16px;
   width: 16px;
   margin-left: 5px;
   margin-bottom: 2px;
 }
-.like-icon .closed-like-icon {
-  display: none;
-  fill: var(--cerise);
+.comment-icon .closed-comment-icon {
+  fill: var(--dodger-blue);
   height: 16px;
   width: 16px;
   margin-left: 5px;

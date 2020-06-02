@@ -50,22 +50,6 @@
   display: flex;
   align-items: flex-end;
 }
-/* .nums-div > * {
-  margin-bottom: 15px;
-} */
-.chirp-item .comment-icon {
-  height: 16px;
-  margin-bottom: 18px;
-  font-size: 18px;
-  color: var(--lynch);
-}
-.chirp-item .comment-num {
-  margin-bottom: 14px;
-}
-/* .chirp-item .like-num {
-  margin-left: 2px;
-  margin-bottom: 14px;
-} */
 .chirp-item .context-div {
   grid-area: context;
   /* background-color: red; */

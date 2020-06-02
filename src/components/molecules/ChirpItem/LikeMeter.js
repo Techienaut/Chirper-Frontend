@@ -9,9 +9,9 @@ let defaultLikeNum = function (propsLikeNum) {
   }
 };
 function LikeMeter(props) {
-  const [likeNum, setLikeNum] = useState(defaultLikeNum(props.likeNum));
   const [isHoverLike, setHoverLike] = useState(false);
   const [likeNumColor, setLikeNumColor] = useState("var(--lynch)");
+  const [likeNum, setLikeNum] = useState(defaultLikeNum(props.likeNum));
   const [isClickLike, setClickLike] = useState(false);
   const [isIncrementLike, setIncrementLike] = useState(true);
   useEffect(() => {

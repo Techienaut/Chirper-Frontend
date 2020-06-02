@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useReducer } from "react";
 import "./a_styles/ChirpItem.css";
-import LikeIcon from "../../atoms/ChripItem/LikeIcon";
 import LikeMeter from "../ChirpItem/LikeMeter";
+import CommentMeter from "../ChirpItem/CommentMeter";
 const profilePic =
   "https://res.cloudinary.com/techienaut/image/upload/v1587372249/Chirper/comment_avatar_ccerz8.png";
 const username = "@egoraptor";
@@ -33,8 +33,7 @@ function ChirpItem(props) {
         <p className="body-chirp">{props.body}</p>
       </div>
       <div className="nums-div">
-        <i className="comment-icon fa fa-comment-o"></i>.
-        <span className="comment-num color-lynch">{props.commentNum}</span>
+        <CommentMeter commentNum={props.commentNum} />
         <LikeMeter likeNum={props.likeNum} />
       </div>
       <div className="context-div">

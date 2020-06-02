@@ -62,6 +62,7 @@
 }
 .chirp-form .submit-btn {
   border: none;
+  background-color: var(--dodger-blue);
   margin-right: 16px;
   width: 76px;
   height: 40px;

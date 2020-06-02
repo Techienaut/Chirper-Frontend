@@ -25,7 +25,7 @@ function ChirpForm(props) {
         ></textarea>
       </div>
       <div className="submit-area">
-        <button className="submit-btn color-dodger-blue">Chirp</button>
+        <button className="submit-btn">Chirp</button>
       </div>
     </form>
   );
