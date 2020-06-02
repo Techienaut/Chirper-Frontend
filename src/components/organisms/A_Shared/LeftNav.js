@@ -6,26 +6,23 @@ let profilePic =
 function LeftNav(props) {
   return (
     <div className="left-nav">
-      <div className="left-space"></div>
-      <div className="right-space">
-        <nav>
-          <ul>
-            <li>
-              <img
-                className="home-icon"
-                src="https://res.cloudinary.com/techienaut/image/upload/v1590022951/Chirper/LeftNav/home-icon_rbu5su.png"
-                alt=""
-              />
-              <span className="label">Home</span>
-            </li>
-            <li className="li-profile">
-              <img className="profile-pic" src={profilePic} alt="" />
-              <span className="label">Profile</span>
-            </li>
-          </ul>
-          <button className="chirp-btn color-dodger-blue">Chirp</button>
-        </nav>
-      </div>
+      <nav>
+        <ul>
+          <li>
+            <img
+              className="home-icon"
+              src="https://res.cloudinary.com/techienaut/image/upload/v1590022951/Chirper/LeftNav/home-icon_rbu5su.png"
+              alt=""
+            />
+            <span className="label">Home</span>
+          </li>
+          <li className="li-profile">
+            <img className="profile-pic" src={profilePic} alt="" />
+            <span className="label">Profile</span>
+          </li>
+        </ul>
+        <button className="chirp-btn color-dodger-blue">Chirp</button>
+      </nav>
     </div>
   );
 }

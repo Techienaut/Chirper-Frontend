@@ -1,17 +1,15 @@
 .left-nav {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-areas: "left-sp right-sp";
+  width: 100%;
 }
 .left-nav .left-space {
-  grid-area: left-sp;
 }
 .left-nav .right-space {
-  grid-area: right-sp;
 }
 .left-nav nav {
+  width: fit-content;
   margin-top: 64px;
   margin-right: 64px;
+  margin-left: auto;
 }
 .left-nav ul {
   list-style-type: none;
