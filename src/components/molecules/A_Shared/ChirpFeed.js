@@ -37,9 +37,9 @@ const chirpItems = [
   },
 ];
 function ChirpFeed() {
-  let chripFeedRender = chirpItems.map((chirpItem) => {
-    console.log({ ...chirpItem });
-    return <ChirpItem {...chirpItem} />;
+  let chripFeedRender = chirpItems.map((chirpItem, index) => {
+    // console.log({ ...chirpItem });
+    return <ChirpItem {...chirpItem} key={index} />;
   });
   return chripFeedRender;
 }
