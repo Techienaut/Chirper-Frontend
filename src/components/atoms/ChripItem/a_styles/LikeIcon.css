@@ -15,6 +15,9 @@
 }
 .like-icon .liked-icon {
   display: none;
+  fill: var(--cerise);
   height: 16px;
   width: 16px;
+  margin-left: 5px;
+  margin-bottom: 2px;
 }
